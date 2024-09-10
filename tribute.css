@@ -1,16 +1,19 @@
 body {
-    background-color: rgb(255, 255, 0);
-}
+background: rgb(255,87,65);
+background: linear-gradient(90deg, rgba(255,87,65,1) 25%, rgba(235,244,17,1) 57%, rgba(233,6,132,1) 96%);}
 
 #size {
-
-    margin-left: 50px;
+display:flex;
+    justify-content:center;
+    
 }
-
+#size img{
+    border:#1a1313 solid 2px;
+    border-radius:15px;
+}
 #h1 {
-
-
-    margin-left: 100px;
+ text-align:center;
+  
 }
 
 h2 {
@@ -20,6 +23,11 @@ h2 {
 }
 
 #f {
-
-    margin-left: 50px;
+    font-family:sans-serif;
+font-weight:bold;
+   text-align:center;
+     text-align:justify;
+    padding:15px;
+    font-size:large;
+   
 }
